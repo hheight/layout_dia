@@ -25,26 +25,26 @@
         <nav class="nav header__nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#!" class="nav__link">Home</a>
+              <a href="./" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
-              <a href="#!" class="nav__link">About us</a>
+              <a href="#about" class="nav__link">About us</a>
             </li>
             <li class="nav__item">
-              <a href="#!" class="nav__link">Services</a>
+              <a href="#process" class="nav__link">Services</a>
             </li>
             <li class="nav__item">
-              <a href="#!" class="nav__link">Work</a>
+              <a href="#approach" class="nav__link">Work</a>
             </li>
             <li class="nav__item">
-              <a href="#!" class="nav__link">Contact us</a>
+              <a href="#contact" class="nav__link">Contact us</a>
             </li>
             <li class="nav__item nav__item--mobile">
-              <a href="#!" class="nav__link">Hire us</a>
+              <a href="#contact" class="nav__link">Hire us</a>
             </li>
           </ul>
         </nav>
-        <a href="#!" class="header__link">Hire us</a>
+        <a href="#contact" class="header__link">Hire us</a>
       </div>
     </header>
   <main class="main">
@@ -75,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="about">
       <div class="container">
         <div class="about">
           <div class="about__text">
@@ -133,7 +133,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="process">
       <div class="container">
         <div class="process">
           <div class="process__text">
@@ -213,7 +213,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="approach">
       <div class="approach">
         <div class="container approach__container">
           <p class="section__name approach__name">Approach</p>
@@ -333,7 +333,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__wrap">
-        <div class="footer__item">
+        <div class="footer__item" id="contact">
           <h2 class="heading footer__heading">Send us a message</h2>
           <form action="" method="POST" class="form footer__form">
             <label class="form__item">
@@ -355,7 +355,11 @@
               >
             </label>
             <label class="form__item">
-              <textarea name="message" class="form__textarea" placeholder="Your message" required></textarea>
+              <textarea
+                name="message"
+                class="form__textarea"
+                placeholder="Your message"
+                required></textarea>
             </label>
             <button type="submit" class="button footer__button">Send</button>
           </form>
@@ -368,7 +372,9 @@
           </div>
           <div class="footer__info">
             <h3 class="footer__contact-title">Visit us</h3>
-            <address class="footer__address">2905 West Drive, Buffalo Grove</address>
+            <address class="footer__address">
+              2905 West Drive, Buffalo Grove
+            </address>
           </div>
           <div class="footer__info">
             <h3 class="footer__contact-title">Our socials</h3>
